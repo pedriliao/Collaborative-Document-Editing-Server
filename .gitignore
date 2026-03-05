@@ -1,0 +1,38 @@
+# Compiled binaries
+server
+client
+test_markdown
+
+# Object files
+*.o
+
+# FIFO pipes (created at runtime)
+FIFO_C2S_*
+FIFO_S2C_*
+
+# Generated document
+doc.md
+
+# Debug / core dumps
+core.*
+*.dSYM/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+*.txt
+!roles.txt
+
+# Python project (separate project)
+Downloads/
