@@ -541,7 +541,7 @@ void collect_and_process_commands() {
         fprintf(stderr, "ERROR: global_log overflow, version_count=%d\n", version_count);
         return;
     }
-
+    
     /* Initialize log for this version */
     CommandLog *log = &global_log[version_count];
     log->version = version_count;
